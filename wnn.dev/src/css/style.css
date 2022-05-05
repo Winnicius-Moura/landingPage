@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --label-icon:url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/lua.png");
+
+    --primary-color:hsl(209, 77%, 43%);
+    --headline:hsl(210,9%,31%);
+    --paragraph:hsl(210,11%,15%);
+
+    --brand-beige:hsl(40, 100%, 97%);
+    --brand-light:hsl(206, 100%, 91%);
+
+    --btn-color:hsl(209, 77%, 43%);
+
+    font-size: 62.5%;
+}
+
+.dark-mode{
+    --label-icon:url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/sol.png");
+    --cor-fundo:hsl(231, 59%, 7%);
+    --paragraph:white;
+    --headline:white;
+    --primary-color:white;
+    --brand-beige:hsla(206, 85%, 15%); /* interior div responsive*/
+    --brand-light:hsl(205, 100%, 6%);
+    --btn-color:hsl(205, 100%, 14%);
+    
+}
+
+
+
+body{
+    font-family: 'DM Sans';
+    background:var(--cor-fundo);
+    color:var(--paragraph);
+    
+    text-align: center;
+}
+
+header{ 
+    width: 37.5rem;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    margin-top:4.1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#btn{
+    display: none;
+}
+.mudar-tema{
+    background: var(--label-icon);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.4rem;
+
+    position: absolute;
+    left: 4rem;
+    top: 4rem;
+    cursor:pointer;
+    z-index: 0;
+    margin: 0;
+}
+
+h4{
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin-bottom: 1.6rem;
+    
+}
+
+h1{
+    font-size: 4.3rem;
+    color: var(--headline);
+    line-height: 130%;
+    margin-bottom: 2.4rem;
+}
+
+p{
+    font-size: 1.8rem;
+    line-height: 130%;
+    color: var(--paragraph);
+    margin-bottom: 3.2rem;    
+}
+
+button{
+    background:var(--btn-color);
+    margin-bottom: 3rem;
+    border: none;
+    border-radius: 4rem;
+
+    height: 6.2rem;
+    width: 26.3rem;
+
+    color:white;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header img{
+    width: 46rem;
+    display:block;
+    margin-bottom: 3rem;
+    margin-inline: auto;
+}
+
+header::before{
+    content: "";
+    width: 100vw;
+    height: 108rem;
+    background-color: var(--brand-light);
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+.stats{
+    width: 32.7rem;
+    padding-block: 4rem;
+    margin-inline:auto;
+
+    background-color: var(--brand-beige);
+    border: 1px solid var(--brand-light);
+    border-radius: .6rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.stat h3{
+    font-size: 3.6rem;
+    color: var(--headline);
+    line-height: 130%;
+
+    margin-top: .4rem;
+}
+.stat p{
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+
+
+    
+
+
