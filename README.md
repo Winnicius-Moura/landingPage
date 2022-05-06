@@ -2,31 +2,27 @@
 # Landing Page - Winnícius
 
 Projeto pensado para promover entre pessoas próximas os benefícios de se ter uma própria landing page. 
-- Em desenvolvimento
-
+- Em desenvolvimento 🏗
 
 ## Demonstração
 
-<img src="src/imagens/page.gif">
+![page](https://user-images.githubusercontent.com/103194571/167063407-970aee81-c1ce-4e07-af18-5a02d280a7c4.gif)
 
 
-## Funcionalidades
+## Funcionalidades até o momento
 
 - Temas dark e light
-- Modo tela cheia
 - Responsividade
 
+## Roadmap
+
+- Adicionar menu de navegação
+
+- Adicionar mais integrações
 
 ## Feedback
 
 Feedback é sempre bem vindo, contato: winnicius.moura@gmail.com
-
-## Roadmap
-
-- Melhorar o suporte de navegadores
-
-- Adicionar mais integrações
-
 
 ## Autor
 
